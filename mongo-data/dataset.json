@@ -1,0 +1,98 @@
+{
+    "_id" : "cpih01",
+    "next" : {
+        "contacts" : [ 
+            {
+                "email" : "cpi@ons.gov.uk",
+                "name" : "Andy King",
+                "telephone" : "+44 (0)1633 456900"
+            }
+        ],
+        "description" : "CPIH is the most comprehensive measure of inflation. It extends CPI to include a measure of the costs associated with owning, maintaining and living in one's own home, known as owner occupiers' housing costs (OOH), along with council tax. This dataset provides CPIH time series (2005 to latest published month), allowing users to customise their own selection, view or download.",
+        "keywords" : [ 
+            "cpih", 
+            ""
+        ],
+        "_id" : "cpih01",
+        "last_updated" : ISODate("2019-05-15T08:10:47.696Z"),
+        "license" : "Open Government Licence v3.0",
+        "links" : {
+            "editions" : {
+                "href" : "http://localhost:22000/datasets/cpih01/editions"
+            },
+            "latest_version" : {
+                "href" : "http://localhost:22000/datasets/cpih01/editions/test-edition/versions/1",
+                "id" : "1"
+            },
+            "self" : {
+                "href" : "http://localhost:22000/datasets/cpih01"
+            },
+            "taxonomy" : {
+                "href" : "https://www.ons.gov.uk/economy/inflationandpriceindices"
+            }
+        },
+        "next_release" : "2018-12-28T00:00:00.000Z",
+        "qmi" : {
+            "href" : "https://www.ons.gov.uk/economy/inflationandpriceindices/methodologies/consumerpriceinflationincludesall3indicescpihcpiandrpiqmi"
+        },
+        "related_datasets" : [ 
+            {
+                "description" : "Consumer price inflation",
+                "href" : "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation",
+                "title" : "Current CPI dataset"
+            }
+        ],
+        "release_frequency" : "Monthly",
+        "state" : "published",
+        "title" : "Consumer Prices Index including owner occupiers' housing costs (CPIH)",
+        "unit_of_measure" : "%"
+    },
+    "last_updated" : ISODate("2018-04-05T14:53:02.115Z"),
+    "current" : {
+        "contacts" : [ 
+            {
+                "email" : "cpi@ons.gov.uk",
+                "name" : "Andy King",
+                "telephone" : "+44 (0)1633 456900"
+            }
+        ],
+        "description" : "CPIH is the most comprehensive measure of inflation. It extends CPI to include a measure of the costs associated with owning, maintaining and living in one's own home, known as owner occupiers' housing costs (OOH), along with council tax. This dataset provides CPIH time series (2005 to latest published month), allowing users to customise their own selection, view or download.",
+        "keywords" : [ 
+            "cpih", 
+            ""
+        ],
+        "_id" : "cpih01",
+        "last_updated" : ISODate("2019-05-15T08:10:47.696Z"),
+        "license" : "Open Government Licence v3.0",
+        "links" : {
+            "editions" : {
+                "href" : "http://localhost:22000/datasets/cpih01/editions"
+            },
+            "latest_version" : {
+                "href" : "http://localhost:22000/datasets/cpih01/editions/test-edition/versions/1",
+                "id" : "1"
+            },
+            "self" : {
+                "href" : "http://localhost:22000/datasets/cpih01"
+            },
+            "taxonomy" : {
+                "href" : "https://www.ons.gov.uk/economy/inflationandpriceindices"
+            }
+        },
+        "next_release" : "2018-12-28T00:00:00.000Z",
+        "qmi" : {
+            "href" : "https://www.ons.gov.uk/economy/inflationandpriceindices/methodologies/consumerpriceinflationincludesall3indicescpihcpiandrpiqmi"
+        },
+        "related_datasets" : [ 
+            {
+                "description" : "Consumer price inflation",
+                "href" : "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation",
+                "title" : "Current CPI dataset"
+            }
+        ],
+        "release_frequency" : "Monthly",
+        "state" : "published",
+        "title" : "Consumer Prices Index including owner occupiers' housing costs (CPIH)",
+        "unit_of_measure" : "%"
+    }
+}
