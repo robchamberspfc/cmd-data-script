@@ -1,0 +1,21 @@
+{
+    "_id" : "cpih01",
+    "next" : {
+        "_id" : "cpih01",
+        "last_updated" : ISODate("2019-05-23T09:52:52.780Z"),
+        "links" : {
+            "editions" : {
+                "href" : "http://localhost:22000/datasets/cpih01/editions"
+            },
+            "self" : {
+                "href" : "http://localhost:22000/datasets/cpih01"
+            },
+            "taxonomy" : {
+                "href" : "/economy/inflationandpriceindices/datasets/consumerpricesindexincludingowneroccupiershousingcostscpih"
+            }
+        },
+        "state" : "created",
+        "title" : "Consumer Prices Index including owner occupiers? housing costs (CPIH)"
+    },
+    "last_updated" : ISODate("2019-05-23T09:52:52.780Z")
+}

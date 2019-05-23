@@ -1,7 +1,8 @@
 {
-    "current" : {
+    "_id" : ObjectId("5ce68a13d782afcb8cb2750d"),
+    "next" : {
         "edition" : "time-series",
-        "last_updated" : ISODate("2019-05-22T21:41:00.738Z"),
+        "last_updated" : ISODate("2019-05-23T11:56:35.611Z"),
         "links" : {
             "dataset" : {
                 "href" : "http://localhost:22000/datasets/cpih01",
@@ -20,9 +21,10 @@
         },
         "state" : "published"
     },
-    "next" : {
+    "id" : "fc90886d-df83-4f83-a85b-1ba85b878889",
+    "current" : {
         "edition" : "time-series",
-        "last_updated" : ISODate("2019-05-22T21:41:00.738Z"),
+        "last_updated" : ISODate("2019-05-23T11:56:35.611Z"),
         "links" : {
             "dataset" : {
                 "href" : "http://localhost:22000/datasets/cpih01",
