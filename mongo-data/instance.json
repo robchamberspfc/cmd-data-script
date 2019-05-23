@@ -1,0 +1,67 @@
+{
+    "_id" : ObjectId("5ce5c173d782afcb8cb24214"),
+    "dimensions" : [ 
+        {
+            "href" : "http://localhost:22400/code-lists/mmm-yy",
+            "id" : "mmm-yy",
+            "name" : "time"
+        }, 
+        {
+            "href" : "http://localhost:22400/code-lists/uk-only",
+            "id" : "uk-only",
+            "name" : "geography"
+        }, 
+        {
+            "href" : "http://localhost:22400/code-lists/cpih1dim1aggid",
+            "id" : "cpih1dim1aggid",
+            "name" : "aggregate"
+        }
+    ],
+    "import_tasks" : {
+        "build_hierarchies" : [ 
+            {
+                "code_list_id" : "cpih1dim1aggid",
+                "dimension_name" : "aggregate",
+                "state" : "completed"
+            }
+        ],
+        "build_search_indexes" : [ 
+            {
+                "dimension_name" : "aggregate",
+                "state" : "completed"
+            }
+        ],
+        "import_observations" : {
+            "total_inserted_observations" : NumberLong(22137),
+            "state" : "completed"
+        }
+    },
+    "id" : "4e71ef51-86b3-4c79-ad98-9bdf789d1d78",
+    "last_updated" : ISODate("2019-05-22T21:39:26.305Z"),
+    "links" : {
+        "dataset" : {
+            "href" : "http://localhost:22000/datasets/cpih01",
+            "id" : "cpih01"
+        },
+        "job" : {
+            "href" : "http://localhost:21800/jobs/9179abaa-ae37-485b-8da5-206b6f380f45",
+            "id" : "9179abaa-ae37-485b-8da5-206b6f380f45"
+        },
+        "self" : {
+            "href" : "http://localhost:22000/instances/4e71ef51-86b3-4c79-ad98-9bdf789d1d78"
+        }
+    },
+    "state" : "published",
+    "unique_timestamp" : Timestamp(1558561166, 1),
+    "edition" : "time-series",
+    "headers" : [ 
+        "V4_0", 
+        "time", 
+        "time", 
+        "uk-only", 
+        "geography", 
+        "cpih1dim1aggid", 
+        "aggregate"
+    ],
+    "total_observations" : 22137
+}

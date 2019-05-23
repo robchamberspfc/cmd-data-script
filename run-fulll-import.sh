@@ -8,6 +8,8 @@
  db.dropDatabase();
  use filters
  db.dropDatabase();
+ use test
+ db.dropDatabase();
 EOF
 
 ##import dataset
@@ -29,7 +31,9 @@ brew services start neo4j
 sleep 20s
 
 ##load data
-cypher-shell < neo-data/cpih1dim1aggid.cypher
-cypher-shell < neo-data/uk-only.cypher
-cypher-shell < neo-data/mmm-yy.cypher
-cypher-shell < neo-data/cpih1dim1aggid-heirarchy.cypher
+# cypher-shell < neo-data/cpih1dim1aggid.cypher
+# cypher-shell < neo-data/uk-only.cypher
+# cypher-shell < neo-data/mmm-yy.cypher
+# cypher-shell < neo-data/cpih1dim1aggid-heirarchy.cypher
+
+cypher-shell < neo-data/rob.cypher
