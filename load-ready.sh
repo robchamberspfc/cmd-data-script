@@ -15,15 +15,13 @@ mongoimport --db datasets --collection datasets \
        --drop --file mongo-data/dataset-pre-publish.json
 
 ##clear Neo
-brew services stop neo4j
-rm -rf /usr/local/Cellar/neo4j/3.3.0/libexec/data
-brew services start neo4j
-
-##wait for Neo to start
-sleep 20s
+cypher-shell < neo-data/clear-neo.cypher
 
 ##load data
 cypher-shell < neo-data/cpih1dim1aggid.cypher
 cypher-shell < neo-data/uk-only.cypher
 cypher-shell < neo-data/mmm-yy.cypher
 cypher-shell < neo-data/cpih1dim1aggid-heirarchy.cypher
+
+##reindex search for this dimension (future-thing)
+##curl -X PUT localhost:23100/search/instances/d0345008-23b0-4355-b1ee-1ca5b52d2207/dimensions/aggregate -H 59c8d5a95ea86dba744f1f81310243231f9e263a9ef4f67c5164d353482a2c2a 
