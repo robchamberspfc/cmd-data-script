@@ -28,3 +28,6 @@ cypher-shell < neo-data/clear-neo.cypher
 
 ##load data
 cypher-shell < neo-data/rob.cypher
+
+##reindex search for this dimension
+curl -X PUT localhost:23100/search/instances/d0345008-23b0-4355-b1ee-1ca5b52d2207/dimensions/aggregate -H 'Authorization: Bearer '$SERVICE_AUTH_TOKEN 

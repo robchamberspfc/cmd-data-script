@@ -22,6 +22,3 @@ cypher-shell < neo-data/cpih1dim1aggid.cypher
 cypher-shell < neo-data/uk-only.cypher
 cypher-shell < neo-data/mmm-yy.cypher
 cypher-shell < neo-data/cpih1dim1aggid-heirarchy.cypher
-
-##reindex search for this dimension (future-thing)
-##curl -X PUT localhost:23100/search/instances/d0345008-23b0-4355-b1ee-1ca5b52d2207/dimensions/aggregate -H 59c8d5a95ea86dba744f1f81310243231f9e263a9ef4f67c5164d353482a2c2a 
