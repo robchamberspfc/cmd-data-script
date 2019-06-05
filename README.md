@@ -6,4 +6,4 @@ May need to tweak location/hosts for it to work for you if setup different or da
 
 load-ready.sh - Currently clears out Neo/Mongo data and adds enough to import a file
 
-published.sh - Loads a published dataset (everything except search!)
+published.sh - Loads a published dataset
